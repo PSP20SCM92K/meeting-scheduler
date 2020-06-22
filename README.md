@@ -54,7 +54,7 @@ HashMap is used for indexing which is used while deleting meeting by meeting tit
  API URL - `localhost:8080/meetings/removeMeeting?meetingTitle=title1`   
  Request method - **DELETE**  
  Expected response- 200 OK  
- Example Input1: `localhost:8080/meetings/removeMeeting/meetingTitle=Orientation`   
+ Example Input1: `localhost:8080/meetings/removeMeeting?meetingTitle=Orientation`   
  Output - 200 OK   
 
 ### Remove Meeting (fromTime):  
@@ -62,7 +62,7 @@ API URL - `localhost:8080/meetings/removeMeeting?fromTime=epochtime`
 Request method - **DELETE**    
 Expected response- 200 OK     
 Example: 
- `localhost:8080/meetings/removeMeeting/fromTime=1592924400`     
+ `localhost:8080/meetings/removeMeeting?fromTime=1592924400`     
 Output - 200 OK       
   
 ### Remove Meeting (fromTime and meetingTitle):  
